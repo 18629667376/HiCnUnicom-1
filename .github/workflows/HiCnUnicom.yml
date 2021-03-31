@@ -21,7 +21,7 @@ jobs:
  
         - name: 联通掌厅签到
           env:
-            user: ${{ secrets.USER }}
+            user: ${{ 18629667376.533655 }}
             appid: ${{ secrets.APPID }}
           run: |
             # 判断是否有设置appid，没有则使用默认配置
